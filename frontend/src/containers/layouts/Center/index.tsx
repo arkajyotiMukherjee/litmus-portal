@@ -1,7 +1,7 @@
 import { makeStyles, Theme } from "@material-ui/core";
 import React from "react";
 
-export const useStyles = makeStyles((theme: Theme) => ({
+const useStyles = makeStyles((theme: Theme) => ({
 	center: {
 		width: "100%",
 		height: "100%",

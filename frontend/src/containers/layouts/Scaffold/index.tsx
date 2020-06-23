@@ -13,7 +13,7 @@ export const Scaffold: React.FC<ScaffoldProps> = ({ children }) => {
 	return (
 		<div className={classes.root}>
 			<CssBaseline />
-			<header style={{ gridArea: "header" }} className={classes.header}>
+			<header className={classes.header}>
 				<Header />
 			</header>
 			<aside className={classes.sidebar}>
